@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+import React, { useState } from 'react'
+
 import './App.css';
+import Navbar from './Components/Navbar';
+import Gallery from './Components/Gallery';
+import Services from './Components/Services';
+import About from './Components/About';
+import Contact from './Components/Contact'
+import SeanTrussHighlands from './Images/SeanTrussHighlands.jpg'
 
 function App() {
+
+  const [currentPage, setCurrentPage] = useState('home')
+
+  const setPageGallery = () => {
+    setCurrentPage('gallery')
+  }
+  
+  const setPageHome = () => {
+    setCurrentPage('home')
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className=' bg-blue-900 h-10 w-full flex text-red-500 justify-evenly items-center'>
+        <p>Phone: 01299 333 221</p>
+        <p>Email: whatever@RST.com</p>
+      </div>
+      <img src={SeanTrussHighlands} id="test1" alt=""className="w-full"/>
+      <Navbar 
+        setPageGallery={setPageGallery}
+        setPageHome={setPageHome}
+      />
+
+      {currentPage === 'home' &&
+      <div>
+        <Services />
+        <About />
+        <Contact />
+      </div>} 
+
+      {currentPage === 'gallery' && <Gallery />}
     </div>
   );
 }
