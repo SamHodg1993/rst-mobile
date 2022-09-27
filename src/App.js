@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa'
 
 import './App.css';
 import Navbar from './Components/Navbar';
@@ -22,11 +23,11 @@ function App() {
 
   return (
     <div>
-      <div className=' bg-blue-900 h-10 w-full flex text-red-500 justify-evenly items-center'>
-        <p>Phone: 01299 333 221</p>
-        <p>Email: whatever@RST.com</p>
+      <div className='top-bar'>
+        <p className='inline'><FaPhoneAlt className='m-5'/> <span className='text-white'>01592 715 046</span></p>
+        <p className='inline'><FaEnvelope className='m-5'/> <span className='text-white'><a href='mailto:traffic@robertsummerstransport.co.uk'>traffic@robertsummerstransport.co.uk</a></span></p>
       </div>
-      <img src={SeanTrussHighlands} id="test1" alt=""className="w-full"/>
+      <img src={SeanTrussHighlands} id="test1" alt=""className="w-full brightness-125"/>
       <Navbar 
         setPageGallery={setPageGallery}
         setPageHome={setPageHome}

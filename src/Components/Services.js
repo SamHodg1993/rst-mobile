@@ -1,25 +1,27 @@
 import React from 'react'
+import { FaWarehouse, FaStoreAlt, FaTruckMoving, FaRoad } from 'react-icons/fa'
+
 
 function Services() {
   return (
     <div className='serv-cont' id="test2">
             <div className='serv-item'>
-                <div className='bg-black to-be-svg'></div>
+                <FaWarehouse className='icon' />
                 <p className='serv-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae.</p>
             </div>
             <div className='serv-item'>
-                <div className='bg-black to-be-svg'></div>
+                <FaStoreAlt className='icon'/>
                 <p className='serv-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae.</p>
             </div>
             <div className='serv-item'>
-                <div className='bg-black to-be-svg'></div>
+                <FaTruckMoving className='icon'/>
                 <p className='serv-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae.</p>
             </div>
             <div className='serv-item'>
-                <div className='bg-black to-be-svg'></div>
+                <FaRoad className='icon'/>
                 <p className='serv-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                         molestiae quas vel sint commodi repudiandae.</p>
             </div>
