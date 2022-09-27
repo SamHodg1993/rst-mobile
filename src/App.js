@@ -8,6 +8,7 @@ import Services from './Components/Services';
 import About from './Components/About';
 import Contact from './Components/Contact'
 import SeanTrussHighlands from './images/SeanTrussHighlands.jpg'
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
       </div>} 
 
       {currentPage === 'gallery' && <Gallery />}
+      <Footer />
     </div>
   );
 }

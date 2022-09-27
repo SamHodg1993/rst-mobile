@@ -186,8 +186,65 @@
         height: 400px;
         width: auto;
     }
+
+}
+/* ******************** Contact Styles **************** */
+
+.contact-container{
+    display: flex;
+    width: 100%;
+    
 }
 
+.contact-item-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 95vh;
+}
+
+.contact-item-inside-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    width: 290px;
+    border-radius: 25%;
+    margin: 50px;
+    box-shadow: 13px 17px 25px 3px rgba(0, 0, 0, 0.2);
+}
+
+.to-be-map{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    width: 30%;
+    margin: 50px;
+}
+
+/* ******************** Footer Styles **************** */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 25, 49);
+    color: white
+}
 
 /* ******************** Testing Styles **************** */
 .test-div{
