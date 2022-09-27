@@ -7,7 +7,7 @@ import Gallery from './Components/Gallery';
 import Services from './Components/Services';
 import About from './Components/About';
 import Contact from './Components/Contact'
-import SeanTrussHighlands from './Images/SeanTrussHighlands.jpg'
+import SeanTrussHighlands from './images/SeanTrussHighlands.jpg'
 
 function App() {
 
