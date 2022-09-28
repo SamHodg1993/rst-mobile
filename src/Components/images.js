@@ -31,42 +31,42 @@ import TrussAndHill from '../images/TrussAndHill.jpg'
 const images = [
     {
         image: GerryIce,
-        alt: "Truck with icy background",
+        alt: "The Dark side on a winters morning",
         id: 0
     },
     {
         image: SeanTrussHighlands,
-        alt: "Sean in the Highlands",
+        alt: "Truss load to the Highlands",
         id: 1
     },
     {
         image: GerryTrussSite,
-        alt: "Gerry with roof trusses on a building site",
+        alt: "The Dark side delivering Trusses",
         id: 2
     },
     {
         image: SeanTimber,
-        alt: "Sean at the docks with a load of timber",
+        alt: "At the docks with a load of timber",
         id: 3
     },
     {
         image: SiteRoadside,
-        alt: "Summers truck getting unloaded roadside at a site",
+        alt: "Roadsite building site delivery",
         id: 4
     },
     {
         image: StevieIce,
-        alt: "Stevie in an icy forrest",
+        alt: "Scottish winter wonderland",
         id: 5
     },
     {
         image:LineOfTrucks,
-        alt: "Line of Summers trucks",
+        alt: "We're ready, are you?",
         id: 6
     },
     {
         image: Y2RSTTruss,
-        alt: "Simey dark with trusses",
+        alt: "Small but MIGHTY!",
         id: 7
     },
     {
@@ -76,22 +76,22 @@ const images = [
     },
     {
         image: DuskTrucks,
-        alt: "Line of Summers trucks at dusk",
+        alt: "Dusk line up",
         id: 9
     },
     {
         image:OffTheBeatenTrack,
-        alt: "Off the beaten track in the Scottish Borders",
+        alt: "Off the beaten track",
         id: 10
     },
     {
         image: TruckfestConvoy,
-        alt: "Convoy on the way to Truckfest 2022",
+        alt: "Truckfest 2022 we're coming!",
         id: 11
     },
     {
         image: WhiskyCollection,
-        alt: "Collecting whisky barrels",
+        alt: "Fancy a nip?",
         id: 12
     },
     {
@@ -111,7 +111,7 @@ const images = [
     },
     {
         image: SeanSiteDelivery,
-        alt: 'Sean delivering flat roof trusses to the Queens Quay site in Glasgow',
+        alt: 'Flat roof trusses to Glasgow',
         id: 16
     },
     {
@@ -131,12 +131,12 @@ const images = [
     },
     {
         image: LoadingWaste,
-        alt: 'Loading waste for a customer',
+        alt: 'Load of waste paper',
         id: 20
     },
     {
         image: SeanNewTruckShow,
-        alt: 'Sean winning best Renault at a truck show down south',
+        alt: 'Best Renault',
         id: 21
     },
     {
