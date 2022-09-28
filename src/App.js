@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa'
 
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
 import Gallery from './Components/Gallery';
 import Services from './Components/Services';
