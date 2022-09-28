@@ -1,9 +1,18 @@
 import React from 'react'
 
+import images from './images'
+
 function Gallery() {
   return (
-    <div>
-        <h1>This is going to be the gallery</h1>
+    <div className='gallary-container'>
+        {images.map(e => {
+          return(
+            <div key={e.id} className="gallary-image">
+              <img src={e.image} alt={e.alt}/>
+              <p>{e.alt}</p>
+            </div>
+          )
+        })}
     </div>
   )
 }
