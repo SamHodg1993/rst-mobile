@@ -25,24 +25,32 @@ function App() {
 
   return (
     <div>
+
+      {currentPage === 'home' &&
+      <div>
       <div className='top-bar'>
         <p className='inline'><FaPhoneAlt className='m-5'/> <span className='text-white'>01592 715 046</span></p>
         <p className='inline'><FaEnvelope className='m-5'/> <span className='text-white'><a href='mailto:traffic@robertsummerstransport.co.uk'>traffic@robertsummerstransport.co.uk</a></span></p>
       </div>
-      <img src={SeanTrussHighlands} id="test1" alt=""className="w-full brightness-125"/>
-      <Navbar 
-        setPageGallery={setPageGallery}
-        setPageHome={setPageHome}
-      />
-
-      {currentPage === 'home' &&
-      <div>
+        <img src={SeanTrussHighlands} id="test1" alt=""className="w-full brightness-125"/>
+        <Navbar 
+          setPageGallery={setPageGallery}
+          setPageHome={setPageHome}
+        />
         <Services />
         <About />
         <Contact />
       </div>} 
 
-      {currentPage === 'gallery' && <Gallery />}
+      {currentPage === 'gallery' && 
+        <div>
+          <Navbar 
+            setPageGallery={setPageGallery}
+            setPageHome={setPageHome}
+          />
+          <Gallery />
+        </div>
+      }
       <Footer />
     </div>
   );
