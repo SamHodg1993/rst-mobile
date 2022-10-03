@@ -14,6 +14,7 @@ function Gallery() {
             className="d-block image"
             src={e.image}
             alt={e.alt}
+            loading="lazy"
           />
           <Carousel.Caption>
             <h3>{e.alt}</h3>
